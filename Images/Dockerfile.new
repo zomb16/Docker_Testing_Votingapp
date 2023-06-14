@@ -1,0 +1,9 @@
+FROM sreeharshav/utils:latest   
+LABEL owner="sreeharshav@gmail.com"
+LABEL version="1.0"
+LABEL team="javateam@tcs.com"
+ARG VERSION='1.2.9'
+ENV AWS_ACCESS_KEY="ASDSADADADASDAS"
+ENV AWS_SECRET_ACCESS_KEY='ADSDASDASSDDASDSD'
+EXPOSE 8888
+CMD ["nginx", "-g", "daemon off;"]
